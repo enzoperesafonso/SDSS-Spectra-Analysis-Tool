@@ -45,8 +45,6 @@ ax.set_xlabel(r'Wavelength (\AA)')
 ax.set_xlim(lamSDSS.min(), lamSDSS.max())
 ax.set_ylabel(r'Flux ($10^{-17}$ erg cm$^{-2}$ s$^{-1}$ \AA$^{-1}$)')
 
-
-
 ########################################  GUI HANDLING ######################################## 
 
 def updateRange(val):
